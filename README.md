@@ -1,6 +1,7 @@
 Quickstart
 ----------
-	`$('form selector').grewform({
+```javascript
+	$('form selector').grewform({
 		//Selectors are CSS/jQuery compatible. You can select inputs by values setted runtime: 'input[value=foo]'
 		'rule_selector' or 'rule_selector_1 AND rule_selector_2]:
 		{		
@@ -35,10 +36,11 @@ Quickstart
 				unmatch:function,	//will be called on rollback
 			}
 
-	})`
+	})
 
 	$().grewform.reset(); // reset all rules (i.e. turn off)
 	$().grewform.runRules(); //manualy run rules
+```
 
 Check out [demos](http://h1d.github.com/jquery-grewform/)
 
